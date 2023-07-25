@@ -5,7 +5,7 @@ import java.util.List;
 
 public class NotaFiscal {
     private List<Produto> produtos;
-    private long preçoTotal;
+    private long precoTotal;
 
     public NotaFiscal() {
         this.produtos = new ArrayList<>();
@@ -13,10 +13,10 @@ public class NotaFiscal {
 
     public void addProduto(Produto p) {
         this.produtos.add(p);
-        this.preçoTotal += (p.getPreço() * p.getQuantidade());
+        this.precoTotal += (p.getPreço() * p.getQuantidade());
     }
 
-    public long getPreçoTotal() {
-        return preçoTotal;
+    public long getPrecoTotal() {
+        return precoTotal;
     }
 }

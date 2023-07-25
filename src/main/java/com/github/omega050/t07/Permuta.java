@@ -5,12 +5,12 @@ public class Permuta {
         if (S.length() == 1) {
             System.out.println(p + S);
         } else {
-            String Slinha;
-            String Plinha;
+            String sLinha;
+            String pLinha;
             for (int i = 0; i < S.length(); i++) {
-                Slinha = S.substring(0, i) + S.substring(+1);
-                Plinha = p + S.charAt(i);
-                permutação(Plinha, Slinha);
+                sLinha = S.substring(0, i) + S.substring(+1);
+                pLinha = p + S.charAt(i);
+                permutação(pLinha, sLinha);
             }
         }
     }
