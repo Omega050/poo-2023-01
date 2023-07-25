@@ -1,15 +1,15 @@
 package com.github.omega050.t13;
 
-public class Funcionario{
+public class Funcionario {
     public String nome;
     protected int id;
     protected double salario;
     public String função;
 
-    public Funcionario(String n, int i, double sal){
+    public Funcionario(String n, int i, double sal) {
         this.nome = n;
         this.id = i;
-        this. salario = sal;
+        this.salario = sal;
     }
 
     public String getNome() {
@@ -39,7 +39,7 @@ public class Funcionario{
     public void setSalario(double salario) {
         this.salario = salario;
     }
-    
+
     public void setFunção(String função) {
         this.função = função;
     }

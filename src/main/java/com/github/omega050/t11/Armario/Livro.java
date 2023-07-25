@@ -1,27 +1,33 @@
 package com.github.omega050.t11.Armario;
+
 import java.util.Date;
+
 public class Livro {
     String lName;
     Date dataP;
     int edicao;
     String autor;
 
-    public Livro(String n, Date d, int e, String a){
+    public Livro(String n, Date d, int e, String a) {
         this.lName = n;
         this.dataP = d;
         this.edicao = e;
         this.autor = a;
     }
-    public String getName(){
+
+    public String getName() {
         return lName;
     }
-    public Date getDate(){
+
+    public Date getDate() {
         return dataP;
     }
-    public int getEd(){
+
+    public int getEd() {
         return edicao;
     }
-    public String getAuthor(){
+
+    public String getAuthor() {
         return autor;
     }
 }

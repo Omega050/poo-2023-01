@@ -17,5 +17,3 @@ class Profissao {
         return descricao;
     }
 }
-
-

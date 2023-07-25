@@ -1,27 +1,28 @@
 package com.github.omega050.t12.LinkedList;
+
 public class LinkedList {
     private Node head;
     private Node tail;
-    
-     class Node {
+
+    class Node {
         public int value;
         private Node prev;
         private Node next;
-        
+
         public Node(int value) {
             this.value = value;
             this.prev = null;
             this.next = null;
         }
     }
-    
+
     public boolean isEmpty() {
         return head == null;
     }
-    
+
     public void insertFirst(int value) {
         Node newNode = new Node(value);
-        
+
         if (isEmpty()) {
             head = newNode;
             tail = newNode;
@@ -31,10 +32,10 @@ public class LinkedList {
             head = newNode;
         }
     }
-    
+
     public void insertLast(int value) {
         Node newNode = new Node(value);
-        
+
         if (isEmpty()) {
             head = newNode;
             tail = newNode;
@@ -44,12 +45,12 @@ public class LinkedList {
             tail = newNode;
         }
     }
-    
+
     public void deleteFirst() {
         if (isEmpty()) {
             return;
         }
-        
+
         if (head == tail) {
             head = null;
             tail = null;
@@ -58,12 +59,12 @@ public class LinkedList {
             head.prev = null;
         }
     }
-    
+
     public void deleteLast() {
         if (isEmpty()) {
             return;
         }
-        
+
         if (head == tail) {
             head = null;
             tail = null;

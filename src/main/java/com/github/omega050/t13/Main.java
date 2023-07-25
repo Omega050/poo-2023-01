@@ -1,7 +1,8 @@
 package com.github.omega050.t13;
+
 import java.util.Date;
 
-public class Main {//gerado com auxilio do Chat GPT apenas para fins de teste das classes criadas
+public class Main {// gerado com auxilio do Chat GPT apenas para fins de teste das classes criadas
     public static void main(String[] args) {
         Hospital hospital = new Hospital("Hospital Geral", "Rua Principal, 123");
         Medico medico = new Medico("Dr. João Silva", 12345, "Cardiologia", 5000.0, 1);
@@ -24,7 +25,6 @@ public class Main {//gerado com auxilio do Chat GPT apenas para fins de teste da
 
         Estoque estoque = new Estoque(medicamento);
         estoque.getMedicamentos().add(medicamento);
-
 
         Medicamento medicamentoSimilar1 = new Medicamento("Ibuprofeno", "Ibuprofeno", "Analgésico", 50);
         Medicamento medicamentoSimilar2 = new Medicamento("Aspirina", "Ácido Acetilsalicílico", "Analgésico", 75);

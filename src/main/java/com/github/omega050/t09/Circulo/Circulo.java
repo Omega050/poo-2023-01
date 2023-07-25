@@ -5,7 +5,7 @@ public class Circulo {
     public double y;
     public double raio;
 
-    public Circulo(double x, double y, double raio){
+    public Circulo(double x, double y, double raio) {
         this.x = x;
         this.y = y;
         this.raio = raio;
@@ -22,8 +22,8 @@ public class Circulo {
     public double getY() {
         return y;
     }
-    
-    public void transladar(double deslocX, double deslocY){
+
+    public void transladar(double deslocX, double deslocY) {
         this.x += deslocX;
         this.y += deslocY;
     }

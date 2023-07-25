@@ -4,7 +4,7 @@ public class Aresta {
     public Nó origem;
     public Nó destino;
 
-    public Aresta(){
-        
+    public Aresta() {
+
     }
 }

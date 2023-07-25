@@ -7,14 +7,15 @@ public class NotaFiscal {
     private List<Produto> produtos;
     private long preçoTotal;
 
-    public NotaFiscal(){
+    public NotaFiscal() {
         this.produtos = new ArrayList<>();
     }
 
-    public void addProduto(Produto p){
+    public void addProduto(Produto p) {
         this.produtos.add(p);
-        this.preçoTotal+=(p.getPreço()*p.getQuantidade());
+        this.preçoTotal += (p.getPreço() * p.getQuantidade());
     }
+
     public long getPreçoTotal() {
         return preçoTotal;
     }

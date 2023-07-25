@@ -1,4 +1,5 @@
 package com.github.omega050.t18;
+
 public class Peça {
     private String nome;
 
@@ -9,6 +10,7 @@ public class Peça {
     public String getNome() {
         return nome;
     }
+
     @Override
     public String toString() {
         return nome;

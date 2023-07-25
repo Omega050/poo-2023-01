@@ -3,7 +3,7 @@ package com.github.omega050.t08.Janela;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Janela{
+public class Janela {
 
     public List<Interacao> elementos;
     public List<Botao> botoes;
@@ -14,9 +14,11 @@ public class Janela{
         this.elementos = new ArrayList<>();
         this.botoes = new ArrayList<>();
     }
+
     public List<Botao> getBotoes() {
         return botoes;
     }
+
     public void adicionarElemento(Interacao elemento) {
         elementos.add(elemento);
     }
@@ -26,8 +28,5 @@ public class Janela{
     }
 
     public void destruirJanela() {
-        }
     }
-
-
-
+}

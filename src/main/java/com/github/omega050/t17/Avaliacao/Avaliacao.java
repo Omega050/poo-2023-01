@@ -1,4 +1,5 @@
 package com.github.omega050.t17.Avaliacao;
+
 import java.sql.Date;
 
 public class Avaliacao {

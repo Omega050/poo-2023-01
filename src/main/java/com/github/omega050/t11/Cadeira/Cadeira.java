@@ -5,22 +5,27 @@ public class Cadeira {
     public float tam;
     private String material;
     public String tipo;
-    public Cadeira(String c, int t, String m, String tipo){
+
+    public Cadeira(String c, int t, String m, String tipo) {
         this.cor = c;
         this.tam = t;
         this.material = m;
         this.tipo = tipo;
     }
-    public String getColor(){
+
+    public String getColor() {
         return cor;
     }
-    public float getSize(){
+
+    public float getSize() {
         return tam;
     }
-    public String getMat(){
+
+    public String getMat() {
         return material;
     }
-    public String getType(){
+
+    public String getType() {
         return tipo;
     }
 }

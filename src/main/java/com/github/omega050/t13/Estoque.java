@@ -6,7 +6,7 @@ import java.util.List;
 public class Estoque {
     public List<Medicamento> medicamentos;
 
-    public Estoque(Medicamento a){
+    public Estoque(Medicamento a) {
         this.medicamentos = new ArrayList<>();
     }
 

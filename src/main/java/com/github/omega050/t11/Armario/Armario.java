@@ -1,13 +1,16 @@
 package com.github.omega050.t11.Armario;
+
 import java.util.List;
 import java.util.ArrayList;
+
 public class Armario {
     public List<Prateleira> listaPrateleiras;
 
-    public Armario(Prateleira p){
+    public Armario(Prateleira p) {
         this.listaPrateleiras = new ArrayList<>(null);
         this.listaPrateleiras.add(p);
     }
+
     public List<Prateleira> getPrateleiras() {
         return listaPrateleiras;
     }

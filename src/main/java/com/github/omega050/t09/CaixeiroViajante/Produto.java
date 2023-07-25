@@ -1,11 +1,10 @@
 package com.github.omega050.t09.CaixeiroViajante;
 
-
 public class Produto {
     public String nome;
     public int qtde;
 
-    public Produto(String n, int qtde){
+    public Produto(String n, int qtde) {
         this.nome = n;
         this.qtde = qtde;
     }
@@ -21,7 +20,7 @@ public class Produto {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
+
     public void setQtde(int qtde) {
         this.qtde = qtde;
     }

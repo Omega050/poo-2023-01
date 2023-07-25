@@ -6,7 +6,7 @@ import java.util.List;
 public class Armazem {
     private List<Pedido> listaPedidos;
 
-    public Armazem(Pedido p){
+    public Armazem(Pedido p) {
         this.listaPedidos = new ArrayList<>();
         listaPedidos.add(p);
     }
@@ -14,8 +14,8 @@ public class Armazem {
     public List<Pedido> getListaPedidos() {
         return listaPedidos;
     }
-    
-    public void addPedido(Pedido p){
+
+    public void addPedido(Pedido p) {
         this.listaPedidos.add(p);
     }
 }

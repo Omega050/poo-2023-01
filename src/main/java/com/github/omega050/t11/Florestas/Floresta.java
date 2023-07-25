@@ -7,11 +7,12 @@ public class Floresta {
     public List<Árvore> arvores;
     public String tipoFloresta;
 
-    public Floresta(Árvore a, String t){
+    public Floresta(Árvore a, String t) {
         this.tipoFloresta = t;
         this.arvores = new ArrayList<>(null);
         arvores.add(a);
     }
+
     public String getTipoFloresta() {
         return tipoFloresta;
     }

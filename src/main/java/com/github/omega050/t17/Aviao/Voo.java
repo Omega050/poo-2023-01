@@ -21,28 +21,36 @@ public class Voo {
         this.horarioSaida = d;
         this.tipoVoo = t;
     }
+
     public Aviao getAviao() {
         return aviao;
     }
+
     public Pessoa getPiloto() {
         return piloto;
     }
+
     public Date getHorarioSaida() {
         return horarioSaida;
     }
+
     public String getTipoVoo() {
         return tipoVoo;
     }
+
     public void setPiloto(Pessoa piloto) {
         this.piloto = piloto;
     }
-    public void addPassageiro(Pessoa p, String a){
+
+    public void addPassageiro(Pessoa p, String a) {
         this.assento = a;
         this.passageiros.add(p);
     }
-    public void addTripulacao(Pessoa p){
+
+    public void addTripulacao(Pessoa p) {
         this.tripulacao.add(p);
     }
+
     public String getAssento() {
         return assento;
     }

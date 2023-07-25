@@ -1,4 +1,5 @@
 package com.github.omega050.t18;
+
 public class Tabuleiro {
     public Peça[][] N;
 
@@ -17,12 +18,14 @@ public class Tabuleiro {
             for (int coluna = 0; coluna < 8; coluna++) {
                 Peça peça = N[linha][coluna];
                 if (peça != null) {
-                    sb.append(peça.getNome()).append(" na posição ").append(obterPosicaoNotacao(linha, coluna)).append("\n");
+                    sb.append(peça.getNome()).append(" na posição ").append(obterPosicaoNotacao(linha, coluna))
+                            .append("\n");
                 }
             }
         }
         return sb.toString();
     }
+
     public static String obterPosicaoNotacao(int linha, int coluna) {
         char letra = (char) ('A' + coluna);
         int numero = 8 - linha;

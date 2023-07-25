@@ -1,9 +1,8 @@
 package com.github.omega050.t09.Circulo;
 
 public class Teste {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         Circulo circulo = new Circulo(2, 3, 5);
-
 
         System.out.println("Centro inicial: " + circulo.getX() + ", " + circulo.getY());
         System.out.println("Raio: " + circulo.getRaio());

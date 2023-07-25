@@ -31,7 +31,8 @@ public class Partida {
         sb.append("Lances:\n");
         for (int i = 0; i < lances.size(); i++) {
             Prova prova = lances.get(i);
-            sb.append(i + 1).append(". ").append(prova.getPeça()).append(" em ").append(prova.getPosicaoNotacao()).append("\n");
+            sb.append(i + 1).append(". ").append(prova.getPeça()).append(" em ").append(prova.getPosicaoNotacao())
+                    .append("\n");
         }
         return sb.toString();
     }

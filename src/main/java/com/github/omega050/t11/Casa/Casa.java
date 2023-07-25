@@ -21,7 +21,7 @@ public class Casa {
     public void adicionarQuarto(Quarto quarto) {
         quartos.add(quarto);
     }
-    
+
     public void adicionarBanheiro(Banheiro banheiro) {
         banheiros.add(banheiro);
     }
@@ -37,6 +37,7 @@ public class Casa {
     public void adicionarGaragem(Garagem garagem) {
         garagens.add(garagem);
     }
+
     public static void main(String[] args) {
         Casa casa = new Casa();
 

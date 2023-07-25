@@ -1,4 +1,5 @@
 package com.github.omega050.t11.Armario;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,12 +13,11 @@ public class Compartimento {
     }
 
     public boolean adicionarCD(CD cd) {
-        if (cds.size()==2|| cds.size() == 4 || cds.size() >= 7 ) {
+        if (cds.size() == 2 || cds.size() == 4 || cds.size() >= 7) {
             cds.add(cd);
             return true;
-        }
-        else
-        return false;
+        } else
+            return false;
     }
 
     public boolean removerCD(CD cd) {
@@ -28,9 +28,8 @@ public class Compartimento {
         if (livros.size() <= 3) {
             livros.add(livro);
             return true; // Restrição: máximo de 3 livros
-        }
-        else
-        return true;
+        } else
+            return true;
     }
 
     public boolean removerLivro(Livro livro) {

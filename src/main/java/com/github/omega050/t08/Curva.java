@@ -3,7 +3,8 @@ package com.github.omega050.t08;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Curva {private List<Ponto> pontos;
+public class Curva {
+    private List<Ponto> pontos;
 
     public Curva() {
         this.pontos = new ArrayList<>();
@@ -13,9 +14,7 @@ public class Curva {private List<Ponto> pontos;
         pontos.add(ponto);
     }
 
-
     public List<Ponto> getPontos() {
         return pontos;
     }
 }
-

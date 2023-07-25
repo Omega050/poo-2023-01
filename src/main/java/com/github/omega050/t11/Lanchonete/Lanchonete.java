@@ -19,9 +19,11 @@ public class Lanchonete {
             funcionarios.add(f);
         }
     }
-    public String getNome(){
+
+    public String getNome() {
         return nomeLanc;
     }
+
     public Funcionario getGerente() {
         return gerente;
     }

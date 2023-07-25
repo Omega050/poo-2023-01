@@ -1,6 +1,5 @@
 package com.github.omega050.t09.CaixeiroViajante;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,10 +16,11 @@ public class Caixeiro {
         adicionarCidade(c);
         adicionarPedido(p);
     }
+
     public String getNome() {
         return nome;
     }
-    
+
     public void adicionarCidade(Cidade cidade) {
         cidadesViagem.add(cidade);
     }

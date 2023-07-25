@@ -1,4 +1,5 @@
 package com.github.omega050.t10;
+
 import java.util.ArrayList;
 import java.util.List;
 

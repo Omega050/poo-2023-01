@@ -1,12 +1,12 @@
 package com.github.omega050.t13;
 
-public class Paciente{
+public class Paciente {
     public String nome;
     private int CPF;
     public Prontuario prontuario;
     protected DadosPagamento dadosPagamento;
 
-    public Paciente(String n, int cpf){
+    public Paciente(String n, int cpf) {
         this.nome = n;
         this.CPF = cpf;
     }
@@ -27,11 +27,11 @@ public class Paciente{
         return prontuario;
     }
 
-    public void realizarPagamento(){
+    public void realizarPagamento() {
 
     }
-    
-    public void acessaProntuario(){
-        
+
+    public void acessaProntuario() {
+
     }
 }

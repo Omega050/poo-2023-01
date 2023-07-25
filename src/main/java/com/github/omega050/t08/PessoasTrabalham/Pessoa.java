@@ -4,20 +4,25 @@ public class Pessoa {
     private String nome;
     public double id;
     private double salario;
-    public Pessoa(String nome, int id){
+
+    public Pessoa(String nome, int id) {
         this.nome = nome;
         this.id = id;
     }
-    public String getNome(){
+
+    public String getNome() {
         return nome;
     }
-    public double getId(){
+
+    public double getId() {
         return id;
     }
-    public double getSal(){
+
+    public double getSal() {
         return salario;
     }
-    public void setSal(double sal){
+
+    public void setSal(double sal) {
         this.salario = sal;
     }
 }

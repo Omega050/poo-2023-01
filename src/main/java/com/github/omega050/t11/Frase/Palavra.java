@@ -6,12 +6,14 @@ import java.util.List;
 public class Palavra {
     public List<Letra> letras;
 
-    public Palavra(){
+    public Palavra() {
         this.letras = new ArrayList<>(null);
     }
-    public void addLetra(Letra l){
+
+    public void addLetra(Letra l) {
         letras.add(l);
     }
+
     public List<Letra> getLetras() {
         return letras;
     }

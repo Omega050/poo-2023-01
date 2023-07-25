@@ -1,4 +1,5 @@
 package com.github.omega050.t17.Profissao;
+
 public class Advogado extends Profissao {
     private String areaEspecializacao;
 

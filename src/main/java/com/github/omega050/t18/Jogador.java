@@ -1,4 +1,5 @@
 package com.github.omega050.t18;
+
 public class Jogador {
     private String nome;
 

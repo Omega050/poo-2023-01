@@ -3,7 +3,7 @@ package com.github.omega050.t13;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Hospital{
+public class Hospital {
     public String nome;
     public String endereço;
     private List<Paciente> internados;
@@ -11,7 +11,7 @@ public class Hospital{
     private List<Medico> medicos;
     public List<Ambulancia> ambulancias;
 
-    public Hospital(String n, String end){
+    public Hospital(String n, String end) {
         this.nome = n;
         this.endereço = end;
         this.internados = new ArrayList<>();
@@ -44,7 +44,7 @@ public class Hospital{
         return ambulancias;
     }
 
-    public void agendarConsulta(Paciente p, Medico m){
-        
+    public void agendarConsulta(Paciente p, Medico m) {
+
     }
 }

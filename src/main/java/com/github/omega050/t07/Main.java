@@ -1,4 +1,5 @@
 package com.github.omega050.t07;
+
 public class Main {
     public static void main(String[] args) {
         Prova pf = new Prova(12);
@@ -7,5 +8,5 @@ public class Main {
         System.out.println(c.getNum());
         System.out.println(SomaNaturais.somarNaturais(10));
         Permuta.permutação(new String(), args[0]);
-    }   
+    }
 }

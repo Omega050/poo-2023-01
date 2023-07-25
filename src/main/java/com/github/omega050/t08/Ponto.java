@@ -16,5 +16,5 @@ public class Ponto {
     public double getY() {
         return y;
     }
-    
+
 }
