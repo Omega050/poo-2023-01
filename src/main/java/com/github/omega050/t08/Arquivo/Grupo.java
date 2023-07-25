@@ -4,10 +4,12 @@ import java.util.ArrayList;
 public class Grupo {
     private String groupName;
     private List<String> users;
-public Grupo(String name){
+
+    public Grupo(String name){
     this.groupName = name;
     this.users = new ArrayList<>(null);
-}
+    }
+
     public String getName() {
         return groupName;
     }

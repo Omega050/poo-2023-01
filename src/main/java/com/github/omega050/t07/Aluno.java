@@ -10,6 +10,7 @@ public class Aluno {
         this.cursos = new ArrayList<>();
         cursos.add(c);
     }
+    
     public List<Curso> getCursos() {
         return cursos;
     }

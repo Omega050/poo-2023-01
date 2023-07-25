@@ -6,6 +6,7 @@ public class AlunoH extends Aluno{
         super(c);
         this.id = id;
     }
+    
     public int getId() {
         return id;
     }

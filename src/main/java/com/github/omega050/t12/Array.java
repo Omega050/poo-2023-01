@@ -1,7 +1,7 @@
 package com.github.omega050.t12;
 public class Array<T> {
     private T[] elementos;
-
+    @SuppressWarnings("unchecked")
     public Array(int tamanho) {
         elementos = (T[]) new Object[tamanho];
     }
