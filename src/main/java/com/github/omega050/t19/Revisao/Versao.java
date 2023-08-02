@@ -23,7 +23,7 @@ public class Versao {
     public ArrayList<Revisao> getProximas() {
         return proximas;
     }
-    
+
     public String getNumero() {
         return numero;
     }
@@ -32,4 +32,3 @@ public class Versao {
         return anterior;
     }
 }
-

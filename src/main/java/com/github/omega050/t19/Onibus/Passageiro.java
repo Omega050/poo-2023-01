@@ -7,21 +7,21 @@ public class Passageiro {
     private String nome;
     private List<Viagem> viagens;
 
-    public Passageiro(String n, Viagem v){
-        this.nome=n;
-        this.viagens=new ArrayList<>(null);
+    public Passageiro(String n, Viagem v) {
+        this.nome = n;
+        this.viagens = new ArrayList<>(null);
         this.viagens.add(v);
     }
 
     public String getNome() {
         return nome;
     }
-    
+
     public List<Viagem> getViagens() {
         return viagens;
     }
 
-    public void addViagem(Viagem v){
+    public void addViagem(Viagem v) {
         this.viagens.add(v);
     }
 }

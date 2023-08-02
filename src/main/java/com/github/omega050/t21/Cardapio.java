@@ -6,11 +6,11 @@ import java.util.List;
 public class Cardapio {
     public List<Prato> pratos;
 
-    public Cardapio(){
+    public Cardapio() {
         this.pratos = new ArrayList<>();
     }
 
-    public void adicionarPrato(Prato p){
+    public void adicionarPrato(Prato p) {
         this.pratos.add(p);
     }
 

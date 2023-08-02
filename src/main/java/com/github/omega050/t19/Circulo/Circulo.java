@@ -4,7 +4,7 @@ public class Circulo {
     public double raio;
     public double area;
 
-    public Circulo(double raio){
+    public Circulo(double raio) {
         this.raio = raio;
     }
 
@@ -12,7 +12,7 @@ public class Circulo {
         return raio;
     }
 
-    public double getArea(){
-        return 3.14*raio*raio;
+    public double getArea() {
+        return 3.14 * raio * raio;
     }
 }

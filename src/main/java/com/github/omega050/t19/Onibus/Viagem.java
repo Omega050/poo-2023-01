@@ -11,18 +11,18 @@ public class Viagem {
     private Cidade origem;
     private Cidade destino;
 
-    public Viagem(Onibus o, int valPassagem, Cidade a, Cidade b){
-        this.onibus=o;
-        this.valPassagem=valPassagem;
-        this.passageiros=new ArrayList<>(0);
-        this.origem=a;
-        this.destino=b;
+    public Viagem(Onibus o, int valPassagem, Cidade a, Cidade b) {
+        this.onibus = o;
+        this.valPassagem = valPassagem;
+        this.passageiros = new ArrayList<>(0);
+        this.origem = a;
+        this.destino = b;
     }
 
     public Onibus getOnibus() {
         return onibus;
     }
-    
+
     public List<Passageiro> getPassageiros() {
         return passageiros;
     }
@@ -35,10 +35,10 @@ public class Viagem {
         this.valPassagem = valPassagem;
     }
 
-    public void addPassageiro(Passageiro p){
+    public void addPassageiro(Passageiro p) {
         this.passageiros.add(p);
     }
-    
+
     public Cidade getDestino() {
         return destino;
     }
@@ -46,7 +46,7 @@ public class Viagem {
     public String getMotorista() {
         return motorista;
     }
-    
+
     public Cidade getOrigem() {
         return origem;
     }

@@ -1,7 +1,6 @@
 package com.github.omega050.t19.Circulo;
 
 public class Ponto {
-    
 
     public double x;
     public double y;
@@ -19,6 +18,5 @@ public class Ponto {
     public double getY() {
         return y;
     }
-
 
 }

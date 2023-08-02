@@ -5,7 +5,7 @@ public class Prato {
     private float valorPrato;
     private String dia;
 
-    public Prato(String n, float v, String d){
+    public Prato(String n, float v, String d) {
         this.nomeProduto = n;
         this.valorPrato = v;
         this.dia = d;
@@ -18,7 +18,7 @@ public class Prato {
     public String getNomeProduto() {
         return nomeProduto;
     }
-    
+
     public float getValorPrato() {
         return valorPrato;
     }

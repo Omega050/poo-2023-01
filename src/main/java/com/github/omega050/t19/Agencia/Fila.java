@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 public class Fila {
     private PriorityQueue<Cliente> clientes;
 
-    public Fila(){
+    public Fila() {
         this.clientes = new PriorityQueue<>(1, new Comparador());
     }
 
@@ -13,7 +13,7 @@ public class Fila {
         return clientes.toArray();
     }
 
-    public void addCliente(Cliente c){
+    public void addCliente(Cliente c) {
         this.clientes.add(c);
     }
 

@@ -18,7 +18,7 @@ public class Software {
     public ArrayList<Versao> getVersoes() {
         return versoes;
     }
-    
+
     public String getNome() {
         return nome;
     }
