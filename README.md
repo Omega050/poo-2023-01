@@ -3,4 +3,5 @@ Repositório referente aos artefatos gerados na disciplina de Programação Orie
 
 Remontei o repositório pois estava tendo problemas com o anterior, por isso os commits antigos não aparecem, o repositório antigo se encontra em: https://github.com/Omega050/poo-2023-03, e nele constam tais commits.
 
+PS: Não compreendi muito bem a parte de onde colocar os arquivos pom.xml
 
