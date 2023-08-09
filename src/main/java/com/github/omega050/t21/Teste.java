@@ -44,7 +44,7 @@ public class Teste {
         // Criando um chefe de cozinha e associando-o à cozinha
         ChefeCozinha chefeCozinha = new ChefeCozinha("Chef Maria");
         Cozinha cozinha2 = new Cozinha(chefeCozinha);
-
+        
         // Criando um gerente
         Gerente gerente = new Gerente("Gerente Paulo");
 
