@@ -2,12 +2,12 @@ package com.github.omega050.t21;
 
 public class Prato {
     private String nomeProduto;
-    private float valorPrato;
+    private double valorPrato;
     private String dia;
 
-    public Prato(String n, float v, String d) {
+    public Prato(String n, double e, String d) {
         this.nomeProduto = n;
-        this.valorPrato = v;
+        this.valorPrato = e;
         this.dia = d;
     }
 
@@ -19,7 +19,7 @@ public class Prato {
         return nomeProduto;
     }
 
-    public float getValorPrato() {
+    public double getValorPrato() {
         return valorPrato;
     }
 
